@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="js/product.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="assets/images/yb_moto_logo_white_transparent.png" alt="brand-logo"></a>
+        <form class="search">
+            <button type="submit"><i class="search_icon fa fa-search"></i></button>
+            <input type="search" class="search_input" name="search_input" placeholder="Search">
+        </form>
+        <nav class="nav">
+            <ul class="nav_links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <li><a href="users.html"><i class="fa fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+        <section class="product">
+            <p id="product_title"></p>
+            <figure id="product_img">
+            </figure>
+        </section>
+        <section class="product_features">
+            <p>kenmerken</p>
+            <ul id="features_list">
+                <!-- js insert  -->
+            </ul>
+        </section>
+        <section class="buy">
+            <p><span id="price"></span><span id="promo-price"></span></p>
+            <select name="product_size" id="product_size">
+                <option value="" disabled selected>Kies uw maat</option>
+                <!-- js insert  -->
+            </select>
+            <button id="to_shopping_cart">in winkelwagen<i class="fa fa-shopping-cart"></i></button>
+        </section>
+        <section class="description">
+            <h1>beschrijving</h1>
+                <p id="description"></p>
+            <section class="shipment&retour">
+                <h1>levering</h1>
+                <p>Binnen België en Nederland geniet u van gratis verzending vanaf bestellingen vanaf €50.
+                    Anders geldt de standaard verzendtarief van €6,50.</p>
+                <h1>retour</h1>
+                <p>Binnen 30 dagen van de aankoopdatum hebt u recht op het gratis retourneren van w product zonder verzendkosten</p>
+            </section>
+        </section>
+        <section id="size_guide">
+            <figure id="insert_size_guide">
+                <img id="size_guide_img" src="" alt="">
+            </figure>
+        </section>
+        <section id="review">
+            <form id="review_form">
+                <label id="review_title" for="review">laat uw mening achter:</label><br>
+                    <input type="text" name="fullname" id="fullname" placeholder="uw naam">
+                    <textarea name="review" id="review_input" form="review_form" cols="40" rows="7" placeholder="uw mening"></textarea>
+                <br>
+                <section id="submit_review_box">
+                    <button id="submit_review">verzenden</button> 
+                </section>
+        </form>
+        </section>
+    <footer class="footer">
+        <p>gemaakt door Yassine benmendour</p>
+    </footer>
+</body>
+</html>

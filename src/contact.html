@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YB-moto</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+        <script src="js/leaflet.js" defer></script>
+        <script src="js/contact.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="assets/images/yb_moto_logo_white_transparent.png" alt="brand-logo"></a>
+            <form class="search">
+                <button type="submit"><i class="search_icon fa fa-search"></i></button>
+                <input type="search" class="search_input" name="search_input" placeholder="Search">
+            </form>
+            <nav class="nav">
+                <ul class="nav_links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li><a href="users.html"><i class="fa fa-solid fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="contactInfoTitle">contacteer ons</h1>
+        <section id="contactform">
+            <form id="contactForm">
+                <section>
+                    <label for="fName">Voornaam:</label>
+                    <input type="name" name="fName" id="fName" placeholder="uw naam"><br>
+                <label for="lName">Achternaam:</label>
+                    <input type="name" name="lName" id="lName" placeholder="uw achternaam"><br>
+                <label for="email">Email-adres:</label>
+                    <input type="email" name="email" id="email" placeholder="uw email-adres"><br>
+                <label for="phone_number">Telefoon nr.</label>
+                    <input type="tel" name="phone_number" id="phone_number" placeholder="Tel nr."><br>
+                <label for="contact_subject">Onderwerp:</label>
+                    <select name="subject" id="contact_subject">
+                    <option value="" disabled selected>Kies een onderwerp</option>
+                    <option>Vraag</option>
+                    <option>Feedback</option>
+                    <option>Klacht</option>
+                </select>
+                </section>
+                <section id="messageBox">
+                    <label for="message">Bericht:</label><br>
+                        <textarea name="message" id="message" form="contactForm" cols="50" rows="10" placeholder="uw bericht"></textarea>
+                    <br><button id="contact_submit_button">verzenden</button> 
+                </section>
+            </form>
+        </section>
+        
+        <div id="map">
+
+        </div>
+        <figure id="contact_sideImg">
+            <img src="assets/images/motorcycle_grey-jacket.jpg" alt="contact side image">
+        </figure>
+        <footer class="footer">
+            <p>gemaakt door Yassine Benmendour</p>
+        </footer>
+</body>
+</html>

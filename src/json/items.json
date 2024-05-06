@@ -1,0 +1,270 @@
+[
+    {
+        "id": 1,
+        "name": "Integraalhelm Course Raider 2.0",
+        "price": 109.49,
+        "priceBefore": 129.99,
+        "img": "assets/images/Course_helm.avif",
+        "type": "helmet",
+        "sizes":[
+            "S",
+            "L",
+            "M",
+            "XL"
+        ],
+        "features":[
+            "Polycarbonaat schaal",
+            "Pinlock®-gereed",
+            "Quick release-vizier",
+            "Zonnevizier",
+            "Uitneem- en wasbare voering",
+            "Inclusief helmtas",
+            "Gewicht 1400g (± 50g, XS-M)",
+            "Gewicht 1450g (± 50g, L-XXL)",
+            "ECE 22.05 goedgekeurd"
+        ],
+        "description": "De Course Raider 2.0 is een nieuwe integraalhelm, verkrijgbaar in twee verschillende schaalmaten en veel mooie kleuren. Het is uitgerust met een quick-release, pinlock voorbereid vizier en geïntegreerd zonnevizier, deze wordt bedient met een soepele schuifregelaar. De comfortabele voering is volledig uitneembaar en wasbaar zodat u de helm fris kunt houden en u krijgt er ook een helmtas bij, ter bescherming tijdens transport en opslag. Voor woon-werkverkeer en weekeneduitstapjes is dit een geweldige keuze die betaalbaar is!"
+    },
+    {
+        "id": 2,
+        "name": "Motorbroek RST Tractech Evo 4 Rood",
+        "price": 259.99,
+        "priceBefore": 299.95,
+        "img": "assets/images/RST_motorbroek.avif",
+        "type": "pants",
+        "sizes":[
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "features":[
+            "Hoofdmateriaal: Koeleer",
+            "Stretchmateriaal: Samtex met stretchpanelen van leer",
+            "Ventilatie: Geperforeerd leer",
+            "Kniebescherming: CE-niveau 1",
+            "Vaste binnenvoering van 3D-mesh",
+            "Heuppantser: CE niveau 2"
+        ],
+        "description": "RST presenteert zijn leren motorbroek voor heren, de Tractech Evo 4 in zwart.nullGebaseerd op het pak uit één stuk, zijn de jas en de broek van elkaar gescheiden om elk deel comfortabeler te maken om dagelijks te dragen. De paneelconstructie zorgt voor meer bewegingsvrijheid, terwijl het beschermingsniveau motorrijders die op zoek zijn naar veiligheid en kwaliteit zal overtuigen."
+    },
+    {
+        "id": 3,
+        "name": "Jas Rev'It! Vertex H2O Zwart",
+        "price": 199.99,
+        "priceBefore": 219.99,
+        "img": "assets/images/Rev_it_jas.avif",
+        "type": "jacket",
+        "sizes":[
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "features":[
+            "Race pasvorm",
+            "Verstelbare pasvorm",
+            "Ventilatieopeningen",
+            "Ritssluiting om de jas met een broek te verbinden",
+            "Veel zakken voor je spullen",
+            "100% Polyester"
+        ],
+        "description": "Rev'It! Vertex H20 is een sportief textieljack dat perfect is voor degenen die een sportiefere motor besturen, maar het te warm vinden om een leren jack te dragen!\nElleboog- en schouderbeschermers beschermen uw lichaam tegen verwondingen die zouden kunnen optreden als u het asfalt zou raken. Het jack is uitgerust met Hydratex®-membraan, waardoor het jack zowel wind- als waterbestendig is en zorgt voor goed ademend vermogen."
+    },
+    {
+        "id": 4,
+        "name": "Motorjas Alpinestars Ast V2 Air",
+        "price": 189.99,
+        "priceBefore": "",
+        "img": "assets/images/alpinestars_jas.avif",
+        "type": "jacket",
+        "sizes":[
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "features":[
+            "Gemaakt van slijtvast 600 Denier polyester",
+            "Reflecterende details",
+            "Flex schouder- en elleboogbeschermers",
+            "Automatisch vergrendelende ritsen voor duurzaamheid en veiligheid",
+            "Comfortabele rand van textiel op kraag",
+            "Compatibel met Tech-Air® 5-airbagsysteem"
+        ],
+        "description": "De AST-1 v2 Air-jas biedt een gepersonaliseerde sportieve rijpasvorm en is een uitzonderlijk lichte en duurzame jas met een mesh schaalconstructie voor superieure ventilatie die volledig is geoptimaliseerd voor gebruik met of zonder Tech-Air5®, Alpinestars' toonaangevende elektronische airbag-veiligheidssysteem."
+    },
+    {
+        "id": 5,
+        "name": "Motorschoenen Alpinestars SpeedForce",
+        "price": 159.99,
+        "priceBefore": 199.99,
+        "img": "assets/images/alpinestars_schoenen.avif",
+        "type": "shoes",
+        "sizes":[
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "features":[
+            "Speciaal ontworpen zool met hoge grip voor controle in elke situatie",
+            "Hoog uitgesneden ontwerp met enkelbescherming",
+            "Versterkte teen- en hielbladen voor",
+            "41% Thermoplastisch Polyurethaan",
+            "31% Polyester",
+            "26% Polyamide"
+        ],
+        "description": "Alpinestars Speed Force is een rijschoen die het uiterlijk en gevoel van een hardloopschoen heeft, maar de bescherming en prestaties levert die worden verwacht van motorfietsen. Een casual schoen met een innovatieve tussenzool biedt loopschoencomfort dat u perfect van dienst is, zowel op als naast de motor."
+    },
+    {
+        "id": 6,
+        "name": "Motorhandschoenen Alpinestars Sp-8",
+        "price": 99.99,
+        "priceBefore": "",
+        "img": "assets/images/alpinestars_handschoenen.avif",
+        "type": "gloves",
+        "sizes":[
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "features":[
+            "Premium constructie van volnerfgeit en synthetisch leer",
+            "Touchscreen-compatibele vingertop op wijsvinger en duim",
+            "Klittenbandmanchet en polssluiting",
+            "Uitstekende impactprestaties door uitstekende knokkelbescherming"
+        ],
+        "description": "Alpinestars SP-8 V3 Leather Glove is een sport-touring handschoen, die bruist van race-DNA. Gemaakt van volnerf geitenleer en synthetisch leer, voor een hoge mate van duurzaamheid en controle. De handschoenen bieden een hoge mate van bescherming dankzij de geavanceerde MotoGP-afgeleide SP-dual-density zwevende knokkelbescherming. Met een voorgevormde vingerconstructie, een klittenbandsluiting en een nieuw anatomisch geprofileerd grip-inzetstuk op handpalm en duim, biedt deze handschoen een veilige en zeer persoonlijke prestatiegerichte rijpasvorm en een hoog bewegings- en comfortniveau."
+    },
+    {
+        "id": 7,
+        "name": "Integraalhelm Shark D-Skwal 3",
+        "price": 249.99,
+        "priceBefore": "",
+        "img": "assets/images/shark_helm.avif",
+        "type": "helmet",
+        "sizes":[
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL "
+        ],
+        "features":[
+            "Anti-kras en anti-mist behandeld vizier",
+            "Compatibel met intercom",
+            "Gewicht: 1.540 g",
+            "Viziervergrendelingssysteem met luchtinlaatpositie"
+        ],
+        "description": "COMPACT EN ORIGINEEL ONTWERP Met zijn agressieve lijnen die allemaal samenkomen op de aero spoilers, is de nieuwe D-SKWAL 3 nog dynamischer dan zijn voorganger. Het perfecte stuk uitrusting voor het verhogen van uw rijplezier! GEAVANCEERDE AERODYNAMICA We hebben digitale CFD (Computational Fluid Dynamics)-simulaties gebruikt om een aerodynamisch profiel te ontwikkelen dat optimale stabiliteit en ventilatie biedt, ongeacht de snelheid. COMFORT OPNIEUW ONTWORPEN Een 3D-scancampagne uitgevoerd met een breed scala aan gebruikers stelde ons in staat om de best mogelijke pasvorm te definiëren: “BEST FIT” van SHARK. De 5 zeer technische textielen bieden een pasvorm met een uniek gevoel van een tweede huid. UITSTEKENDE VEILIGHEID EN FUNCTIES De D-SKWAL3 overtreft de strenge eisen van de UN ECE 22-06-norm dankzij de hoogwaardige constructie en de perfect geïntegreerde standaardfuncties."
+    },
+    {
+        "id": 8,
+        "name": "Motorschoenen Rev!it G-Force",
+        "price": 149.99,
+        "priceBefore": "",
+        "img": "assets/images/schoenen_rev!it.avif",
+        "type": "shoes",
+        "sizes":[
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "features":[
+            "Voering van mesh",
+            "Geïnjecteerde enkelcup",
+            "Thermogevormde hielkap en neus",
+            "Reflecterende details",
+            "Klittenband bij enkelsluiting",
+            "Slipbestendige zool",
+            "Extra paar veters in verschillende kleuren"
+        ],
+        "description": "De sportieve en waterdichte G-Force H2O-paddockschoenen zijn geïnspireerd op de MotoGP- en WSBK-werelden en zijn de ideale match voor sportrijders. Ze hebben een stoere leren buitenkant, een geïnjecteerde enkelcup en thermogevormde hielcups en teenkappen om voor de veiligheidscomponent te zorgen. Een ingebouwde waterdichte Hydratex® |Z-voering zorgt ervoor dat ze meer seizoenen mee gaan."
+    },
+    {
+        "id": 9,
+        "name": "Systeemhelm HJC C91 Pearl Wit",
+        "price": 129.99,
+        "priceBefore": 149.99,
+        "img": "assets/images/hjc_helm.avif",
+        "type": "helmet",
+        "sizes":[
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "features":[
+            "Lichtgewicht",
+            "Superieure pasvorm en comfort",
+            "Pinlock-klaar vizier is gemakkelijk te openen met handschoenen",
+            "Krachtig ventilatiesysteem met luchtstroom",
+            "Valbaar zonnevizier",
+            "Ruimte voor brillen"
+        ],
+        "description": "HJC's C91 biedt rijders een lichtgewicht, supercomfortabele, betaalbare, veilige modulaire motorhelm met een budgetvriendelijk prijskaartje, met een schaal gemaakt van een geavanceerd polycarbonaat composiet gemaakt met CAD-technologie om een laag gewicht, superieure pasvorm en comfort te bereiken. De kinstang werkt met een eenvoudig te gebruiken enkele hendel en is handschoenvriendelijk en een intern zonnescherm heeft een handmatig mechanisme dat gemakkelijk naar voren en naar achteren beweegt. De grote ventilatieopening aan de bovenkant zorgt voor luchtstroomventilatie door de diepe EPS-kanalen van de helm, waardoor je koel blijft tijdens je ritten. De SuperCool topvoering en binnenkant van het wangkussen geven extra verkoelende eigenschappen met zijn vochtafvoerende en antibacteriële stof. De C91 is ook Smart HJC-gereed om de 10B- of 20B- Bluetooth-systemen te accepteren, met luidsprekervakken voor een eenvoudige installatie, comfortabel voor de oren."
+    },
+    {
+        "id": 10,
+        "name": "Remschijfslot met Alarm SXP MDA02",
+        "price": 34.99,
+        "priceBefore": "",
+        "img": "assets/images/remschijfslot.avif",
+        "type": "lock",
+        "sizes":[],
+        "features":[
+            "Luid alarm",
+            "Makkelijk te gebruiken",
+            "Krachtig schijfremslot met 5,5 mm gehard stalen sluitpallet",
+            "Inclusief 2 sleutels",
+            "Montage op de remschijf",
+            "Alarm werkt op batterijen (inclusief)"
+        ],
+        "description": "Dit flexibele remschijfslot van SXP is uitgerust met een alarm van 110 dB (ongeveer hetzelfde volume als een rock concert), dat alle ongewenste bezoekers zal afschrikken. Dit is een bijzonder stevig slot gemaakt van een kwalitatief hoogwaardige zink legering, met een Vergrendel zuiger van 5,5mm. Het slot wordt geleverd met een CR2 Lithium batterij. Het bevat ook 2 sleutels en een snaar die het slot verbindt met de gashendel van de motorfiets. Dit betekent dat u altijd zult onthouden om het slot te ontgrendelen voordat u weg rijdt. Het pakket bevat ook duidelijke instructies in het Engels over het gebruik en de batterij vervanging."
+    },
+    {
+        "id": 11,
+        "name": "Beugelslot SXP 802J",
+        "price": 16.99,
+        "priceBefore": "",
+        "img": "assets/images/beugelslot.avif",
+        "type": "lock",
+        "sizes":[],
+        "features":[
+            "Compact formaat",
+            "Gehard staal",
+            "Gewicht 1,8 kg",
+            "Dikte beugel 16 mm"
+        ],
+        "description": "Het SXP 802J beugelslot heeft een 4 sterren keuring en is hierdoor geschikt voor fietsen, scooters en motoren. Het wordt geleverd met twee sleutels voorzien van sleutelnummer en het sleutelgat is afsluitbaar. Hierdoor voorkom je dat er water of vuil in het slot kan komen. Met een gewicht van slechts 1,8 kg is het een goed alternatief voor een kettingslot in dezelfde ART klasse."
+    },
+    {
+        "id": 12,
+        "name": "Oxford GP kettingslot 1,2 m",
+        "price": 24.99,
+        "priceBefore": "",
+        "img": "assets/images/kettingslot.avif",
+        "type": "lock",
+        "sizes":[],
+        "features":[
+            "Integrale vergrendelingskop draait 360 graden",
+            "Krasvrije kettinghuls",
+            "2 sleutels met vervangingsservice",
+            "8 mm ronde schakelketting",
+            "Geschikt voor motor, scooter of fiets",
+            "Neem weinig plek in beslag",
+            "schuif sluitpallet voor bescherming sleutelgat"
+        ],
+        "description": "De Gp kettingslot is een ongelooflijk waardevol, multifunctioneel kettingslot. De Gp kettingslot is geweldig voor het beveiligen van alles, van fietsen tot banken, boten en barbecues, plus huurmachines, grasmaaiers en schuren. De geruststellend stevige stalen kettingschakels en integrale slotkop maken dit een van de meest veelzijdige sloten van Oxford. De Gp kettingslot heeft een sleutelvervangingsservice. Wanneer u deze koopt, noteert u gewoon het nummer dat aan de sleutels op een metalen plaatje is bevestigd. Bewaar deze op een veilige plaats, in het geval dat u de pech heeft al uw sleutels te verliezen, is het mogelijk om een nieuwe sleutel voor u te laten maken. De Gp kettingslot heeft rigoureuze onafhankelijke tests ondergaan en heeft de Bronze Secure Pedal Cycle-certificering behaald."
+    }
+]

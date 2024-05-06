@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YB-moto</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/shop.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="assets/images/yb_moto_logo_white_transparent.png" alt="brand-logo"></a>
+        <form class="search">
+            <button type="submit"><i class="search_icon fa fa-search"></i></button>
+            <input type="search" class="search_input" name="search_input" placeholder="Search">
+        </form>
+        <nav class="nav">
+            <ul class="nav_links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="#"><i id="nav_shopping_cart" class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <li><a href="users.html"><i class="fa fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="shop_title">
+        <h1>YB-moto's shop</h1>
+    </section>
+    <!-- id voor js -->
+    <section class="shop" id="shop">
+    </section>
+        <section id="cart">
+            <section class="cart_header">
+                <h2>winkelwagen</h2><button id="cart_close"><i id="cart_close_icon" class="fa fa-window-close"></i></button>
+            </section>
+            <section id="cart_content">
+                <!-- cart item -->
+                <!-- <section class="cart_item">
+                    <figure id="cart_image"><img  src="assets/images/Course_helm.avif" alt=""></figure>
+                    <span id="cart_text">
+                        <p id="cart_product_name">Motorhandschoenen Alpinestars Sp-8</p>
+                        <p id="quantity">hoeveelheid: <span id="cart_quantity_insert">1</span></p>
+                        <p id="price_cart">prijs: €<span id="cart_price_insert">149,99</span></p>
+                    </span>
+                    <section id="cart_buttons">
+                        <button id="minus_button"><i class="fa fa-minus-square"></i></button>
+                        <button id="plus_button"><i  class="fa fa-plus-square"></i></button>
+                        <button id="trash_button"><i class="fa fa-trash"></i></button>
+                    </section> -->
+                <!-- cart item -->    
+                <!-- end of cart item -->
+                <section class="checkout">
+                </section>
+            </section>
+        </section>
+        <section id="review">
+            <form id="review_form">
+                <label id="review_title" for="review">laat uw mening achter:</label><br>
+                    <input type="text" name="fullname" id="fullname" placeholder="uw naam">
+                    <textarea name="review" id="review_input" form="review_form" cols="40" rows="7" placeholder="uw mening"></textarea>
+                <br>
+                <section id="submit_review_box">
+                    <button id="submit_review">verzenden</button> 
+                </section>
+        </form>
+        </section>
+    <footer class="footer">
+        <p>gemaakt door Yassine Benmendour</p>
+    </footer>
+</body>
+</html>
