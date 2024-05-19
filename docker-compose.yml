@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - webnet
+
+  db:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: shop
+      MYSQL_USER: shopuser
+      MYSQL_PASSWORD: shoppassword
+    ports:
+      - "3306:3306"
+    networks:
+      - webnet
+
+networks:
+  webnet:
