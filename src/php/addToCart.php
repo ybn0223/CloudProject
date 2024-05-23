@@ -9,6 +9,10 @@ ini_set('display_errors', 1);
 // Define a function to log messages
 function log_message($message) {
     $log_file = '/var/www/html/php/logs/addToCart.log';
+    $log_dir = dirname($log_file);
+    if (!file_exists($log_dir)) {
+        mkdir($log_dir, 0777, true);
+    }
     if (!file_exists($log_file)) {
         file_put_contents($log_file, '');
         chmod($log_file, 0666);
@@ -86,7 +90,8 @@ function addToCart($id, $name, $price) {
         log_message("Inserted product_id $id, name $name, price $price into cart\n");
     }
 
-    // Close connection
+    // Close prepared statement and connection
+    $stmt->close();
     $conn->close();
 
     return true;
@@ -105,10 +110,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validate if required data is present
     if (isset($postData['id']) && isset($postData['name']) && isset($postData['price'])) {
-        // Retrieve posted data
-        $id = $postData['id'];
-        $name = $postData['name'];
-        $price = $postData['price'];
+        // Sanitize input data
+        $id = intval($postData['id']);
+        $name = htmlspecialchars($postData['name']);
+        $price = floatval($postData['price']);
 
         // Add item to database cart
         if (addToCart($id, $name, $price)) {
