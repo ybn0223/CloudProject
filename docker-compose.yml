@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: yassine0223/CloudProject:latest
+    image: yassine0223/cloudproject:latest
     ports:
       - "80:80"
     depends_on:
