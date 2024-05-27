@@ -8,8 +8,6 @@ services:
       - ./src:/var/www/html
     depends_on:
       - db
-    networks:
-      - webnet
 
   db:
     image: mariadb:latest
@@ -20,8 +18,3 @@ services:
       MYSQL_PASSWORD: shoppassword
     ports:
       - "3306:3306"
-    networks:
-      - webnet
-
-networks:
-  webnet:

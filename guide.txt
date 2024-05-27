@@ -1,0 +1,6 @@
+maak een azure VM
+
+SSH hier naartoe
+
+volg deze pagina om docker te installeren op je VM
+
