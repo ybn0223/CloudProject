@@ -11,9 +11,9 @@ services:
   db:
     image: mariadb:latest
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: shop
-      MYSQL_USER: user
-      MYSQL_PASSWORD: user
+      MYSQL_USER: shopuser
+      MYSQL_PASSWORD: shoppassword
     ports:
       - "3306:3306"
