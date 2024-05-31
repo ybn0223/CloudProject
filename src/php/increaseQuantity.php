@@ -18,8 +18,8 @@ function log_message($message) {
 
 function connectToDatabase() {
     $servername = "db";
-    $username = "shopuser";
-    $password = "shoppassword";
+    $username = "user";
+    $password = "user";
     $database = "shop";
 
     $conn = new mysqli($servername, $username, $password, $database);
