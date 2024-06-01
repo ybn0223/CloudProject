@@ -23,8 +23,8 @@ function log_message($message) {
 // Function to establish database connection
 function connectToDatabase() {
     $servername = "db"; 
-    $username = "shopuser"; 
-    $password = "shoppassword"; 
+    $username = "user"; 
+    $password = "user"; 
     $database = "shop"; 
 
     // Create connection
